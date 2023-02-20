@@ -85,16 +85,8 @@ const goYellow=()=>{
       <Navbar logo = 'amanKaWord' hexCode={hexCode} goGreen={goGreen} goRed = {goRed} goYellow={goYellow} goGrey={goGrey}></Navbar>
       <Routes>
 
-          {/* <Route path="/about">
-            <About />
-          </Route> */}
-
           <Route path="/about" element={<About/>} />
           <Route path="/" element={<TextArea/>} />
-          
-          {/* <Route path="/">
-          <TextArea heading = 'Changing Mode' colorMode = {colorMode}></TextArea>
-          </Route> */}
 
         </Routes>
       </Router>
